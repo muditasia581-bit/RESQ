@@ -32,7 +32,7 @@ During natural disasters, people often lack real-time, location-specific informa
 
 * **Frontend:** React.js, Tailwind CSS, HTML/CSS
 * **Backend:** Flask
-* **Hosting:** Render, GitHub
+* **Hosting:** GitHub Pages, GitHub
 
 ### Sponsor Technologies Used
 
@@ -43,12 +43,10 @@ During natural disasters, people often lack real-time, location-specific informa
 ## ✨ Key Features
 
 * ✅ **Immediate SOS Alerts:** Sends emergency signals to nearby police stations and volunteers.
-* ✅ **AutoQ (Predictive Routing):** Detects user location and dynamically guides them to the nearest Quell Zone based on evolving threats.
+* ✅ **AutoQ (Predictive Routing):** Detects user location and dynamically guides users to the nearest **Quell Zone** based on evolving threats.
 * ✅ **Quell Zones:** Identifies relatively safe locations during disasters.
-* ✅ **Q-link Communication:** Seamless communication between users, volunteers, and disaster centers.
-* ✅ **Q Badge System:** Recognizes and rewards volunteers for their rescue efforts to boost engagement.
-
-*(Snapshots available in MVP links.)*
+* ✅ **Q-link Communication:** Enables seamless communication between users, volunteers, and disaster response teams.
+* ✅ **Q Badge System:** Recognizes and rewards volunteers for their rescue efforts to encourage community participation.
 
 ---
 
@@ -56,15 +54,15 @@ During natural disasters, people often lack real-time, location-specific informa
 
 ### MVP (Working Prototype)
 
-**Live MVP:** `https://YOUR-NEW-LIVE-LINK`
+🌐 **Live Demo:** https://muditasia581-bit.github.io/RESQ/
 
-**GitHub Repository:** `https://github.com/muditasia581-bit/RESQ`
+📂 **GitHub Repository:** https://github.com/muditasia581-bit/RESQ
 
 ---
 
 ## ✅ Tasks & Bonus Checklist
 
-* ✅ All members of the team completed the mandatory task.
+* ✅ All team members completed the mandatory task.
 * ✅ Bonus Task 1 completed (Sharing of Badges).
 * ✅ Bonus Task 2 completed (Signed up for Sprint.dev).
 
@@ -75,51 +73,54 @@ During natural disasters, people often lack real-time, location-specific informa
 ### Requirements
 
 * Node.js
-* API Keys for Google Maps
-* Firebase Project Setup (Auth, Database, Cloud Messaging)
+* Google Maps API Key
+* Firebase Project (Authentication, Firestore/Realtime Database, Cloud Messaging)
+* Groq API Key
 
-### Local Setup
+### Installation
 
 ```bash
-# Clone the repo
+# Clone the repository
 git clone https://github.com/muditasia581-bit/RESQ
 
-# Install dependencies
+# Navigate into the project
 cd RESQ
+
+# Install dependencies
 npm install
 
-# Start development server
+# Start the development server
 npm run dev
 ```
 
-> Ensure environment variables like Firebase credentials and API keys are properly configured.
+> Configure the required environment variables (Firebase, Google Maps, and Groq API keys) before running the application.
 
 ---
 
 ## 🦮 Future Scope
 
-* 📈 Integration with government-run disaster systems and NGOs.
-* 🛡 Advanced AI threat prediction based on satellite and sensor data.
-* 🌐 Localization in regional languages for broader accessibility.
-* 🚁 Offline maps and mesh networking for communication without internet.
+* 📈 Integration with government disaster management systems and NGOs.
+* 🛡 AI-powered disaster prediction using satellite and sensor data.
+* 🌐 Support for regional languages to improve accessibility.
+* 🚁 Offline maps and mesh networking for communication during internet outages.
 
 ---
 
 ## 📌 Resources / Credits
 
-* Google Maps API for geolocation and routing.
-* Firebase for authentication, database, and messaging.
-* Groq API for AI-based user query resolution.
-* Tailwind CSS for fast, responsive front-end design.
+* Google Maps API
+* Firebase
+* Groq API
+* Tailwind CSS
 
-Special thanks to the hackathon organizers and supporting teams for their inspiration and mentorship.
+Special thanks to the hackathon organizers, mentors, and everyone who supported us throughout the development of RESQ.
 
 ---
 
 ## 🏁 Final Words
 
-Our journey with **RESQ** was about building something that can literally save lives.
+Building **RESQ** was an opportunity to create technology with real-world impact.
 
-From brainstorming real-world use cases to building a live MVP within hackathon deadlines, we faced and overcame numerous challenges. We learned a great deal about real-time systems, predictive routing, and effective team collaboration under pressure.
+From ideation to delivering a working MVP within the hackathon timeline, our team tackled challenges in AI integration, real-time communication, and predictive routing while strengthening our collaboration and problem-solving skills.
 
-**#ByteRunners for the win!**
+**#ByteRunners 🚀**
